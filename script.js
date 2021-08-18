@@ -35,7 +35,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
           }
         }).then(function () {
           const pertanyaan = Swal.fire({
-            title: `${nama} sayangnya gimana ma akuu${sender}?😙`,
+            title: `${nama} sayangnya gimana ma ${sender}?😙`,
             showDenyButton: true,
             showCancelButton: false,
             confirmButtonText: `Sayang banged^8 😙`,
