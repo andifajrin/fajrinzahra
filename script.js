@@ -35,11 +35,11 @@ document.querySelector(".tombol").addEventListener('click', function () {
           }
         }).then(function () {
           const pertanyaan = Swal.fire({
-            title: `${nama} sayangnya gimana ma ${sender}?😙`,
+            title: `${nama} sayangnya gimana ma akuuuu?😙`,
             showDenyButton: true,
             showCancelButton: false,
             confirmButtonText: `Sayang banged^8 😙`,
-            denyButtonText: `sayaaaang aja :'`,
+            denyButtonText: `sayaaaang aja_-`,
           }).then((result) => {
             /* Read more about isConfirmed, isDenied below */
             if (result.isConfirmed) {
